@@ -58,9 +58,9 @@
                     <span class="sdl-day">
                         Mondays to Fridays <br> from 9:00 am – 5:30 pm <br> Weekends by appointment
                     </span>
-                    <img src="images/care-logo.png" alt="" class="img-fluid mb-4">
-                    <img src="images/gdc-logo.png" alt="" class="img-fluid mb-4">
-                    <img src="images/nhs-logo.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/care-logo.png" alt="care-logo" class="img-fluid mb-4">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/gdc-logo.png" alt="gdc-logo" class="img-fluid mb-4">
+                    <img src="<?php echo get_template_directory_uri() ?>/images/nhs-logo.png" alt="nhs-logo" class="img-fluid">
                 </div>
             </div>
         </div>
