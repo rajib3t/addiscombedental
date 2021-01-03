@@ -22,38 +22,59 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'simple-blog' ); ?></a>
+<header>
+	<?php 
+	$logo = get_theme_mod( 'custom_logo' );
+	$image = wp_get_attachment_image_src( $logo , 'full' );
+	$logo_url = $image[0];
+		
+	?>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-4">
+                <a class="navbar-brand" href="#">
+                    <img src="<?php echo $logo_url?>" alt="logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-9 col-8">
+                <div class="head-top">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <span class="top-addr"><i class="fa fa-map-marker"></i> <?php echo get_option( 'contact_address', '' )?></span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 text-center">
+                            <a href="mailto:<?php echo get_option( 'contact_email', '' )?>" class="top-mail"><i class="fa fa-envelope"></i> <?php echo get_option( 'contact_email', '' )?></a>
+                        </div>
+                        <div class="col-lg-2 col-md-2 text-right">
+                            <div class="social">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-google-plus"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-mid">
+                    <nav class="navbar-expand-lg navbar-light align-items-center">
+                        <div class="collapse navbar-collapse" id="navbarNav">
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$simple_blog_description = get_bloginfo( 'description', 'display' );
-			if ( $simple_blog_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $simple_blog_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'simple-blog' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+						<?php 
+								$args = [
+									'menu_class'=>'navbar-nav',
+									'container'=>false,
+									'walker' => new OWCtheme_Walker_Nav_Menu()
+								];
+								wp_nav_menu($args)
+		  				?>
+                            
+                        </div>
+                        <a href="tel:<?php echo get_option( 'contact_phone', '' )?>" class="tel-top"><i class="call-ico"></i> <?php echo get_option( 'contact_phone', '' )?></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
