@@ -78,3 +78,8 @@
         </div>
     </div>
  </header>
+
+ <?php
+ if(is_page_template( 'service.php' )){
+     get_template_part('template/header','page');
+ }
