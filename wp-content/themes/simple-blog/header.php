@@ -60,7 +60,7 @@
 
 						<?php 
 								$args = [
-                                    'menu'=>'Menu1',
+                                    'menu'=>'Menu 1',
 									'menu_class'=>'navbar-nav',
 									'container'=>false,
                                     'walker' => new OWCtheme_Walker_Nav_Menu(),
