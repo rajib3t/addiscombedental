@@ -201,3 +201,13 @@ add_filter('wpcf7_form_elements', function($content) {
         
     return $content;
 });
+
+function rjs_lwp_contactform_css_js() {
+   
+       if(is_front_page()){
+		wp_dequeue_style( 'contact-form-7' );
+	   }
+
+    
+}
+add_action( 'wp_enqueue_scripts', 'rjs_lwp_contactform_css_js');
