@@ -60,10 +60,11 @@
 
 						<?php 
 								$args = [
+
 									'menu_class'=>'navbar-nav',
 									'container'=>false,
                                     'walker' => new OWCtheme_Walker_Nav_Menu(),
-                                    'theme_location'=>'primary'
+                                    
 								];
 								wp_nav_menu($args)
 		  				?>
