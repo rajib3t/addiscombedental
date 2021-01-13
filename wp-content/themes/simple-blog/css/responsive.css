@@ -8,12 +8,21 @@
 
 }
 @media only screen and (max-width: 1199px){
-    .header-for-desktop nav.navbar-light .navbar-nav .nav-link {
-        padding: 32px 6px 28px;
+    .top-mail i.fa {
+        margin-right: 6px;
+    }
+    .social a {
+        margin-left: 1px;
+    }
+    nav.navbar-light .navbar-nav .nav-link {
+        padding: 8px 6px;
+    }
+    .banner h1 {
+        font-size: 54px;
     }
     
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 992px){
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
         flex-direction: row;
@@ -21,133 +30,175 @@
 
 }
 @media only screen and (max-width: 991px){
-    .header-for-desktop nav.navbar-light .navbar-nav .nav-link {
-        padding: 32px 2px 28px;
-        font-size: 10px;
+    header::after {
+        width: 20%;
+        height: 30px;
     }
-    .con-info {
-        margin-left: 14px;
+    .top-mail {
+        float: left;
+        margin-left: 32px;
     }
-    .banner h1 {
-        font-size: 34px;
-        line-height: 40px;
-    }
-    .banner p {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    
-}
-@media only screen and (max-width: 768px){
-
-}
-@media only screen and (max-width: 767px){
-    .navbar-brand, .custom-logo-link {
-        max-width: 84px;
-        margin: 0;
-        height: 63px;
-        z-index: 9;
-        position: relative;
-    }
-    .head-mb-info {
-        display: flex;
-        margin-left: auto;
-        margin-right: 62px;
+    .head-top::before {
+        border-top: 30px solid #231f20;
+        border-left: 32px solid transparent;
+        position: absolute;
+        left: -32px;
     }
     .navbar-light .navbar-toggler {
         border-color: transparent;
         padding: 0;
+        margin-left: auto;
     }
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 14px;
-        padding: 9px 0;
-        border-bottom: 1px solid #e1e1e1;
-        text-transform: uppercase;
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 16, 29, 1%35' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
-    .sub-menu li a {
-        text-transform: uppercase;
+    .tel-top {
+        background: transparent;
     }
-    .navbar-nav {
-        padding-top: 20px;
+    .call-ico {
+        background: url(../images/call-mb.png) no-repeat left center;
+        width: 23px;
+        height: 23px;
     }
-    a.nav-link + .sub-menu {
-        color: #000;
-    }
-    .megaSubmenu>.sub-menu>li {
+    .navbar-collapse {
+        position: absolute;
         width: 100%;
-        border-bottom: 1px solid #e1e1e1;
+        top: 140px;
+        z-index: 9;
+        background: rgba(0,0,0,0.90);
+    }
+    nav.navbar-light .navbar-nav .nav-link:hover, nav.nav-item.active > .nav-link, nav.navbar-light .navbar-nav .active > .nav-link {
+        border-radius: 0;
+    }
+    nav.navbar-light .navbar-nav .nav-link, nav.navbar-light .navbar-nav .nav-link:focus {
+        color: #b4c2cc;
+    }
+    .banner h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .bnr-shadow {
+        padding: 20px 60px;
     }
     .megaSubmenu > .sub-menu, .sub-menu {
         padding: 0 0 0;
         position: relative;
         box-shadow: 0 0 0;
         width: 100%;
+        display: none;
     }
-    /*.navbar-nav li:hover ul {
-        display: block;
-    }*/
-    .wlcm-sec .section_title {
-        margin-top: 26px;
-        text-align: center;
+    .sub-menu li {
+        border-bottom: 1px solid rgba(30, 30, 30, 0.95);
+        color: #b4c2cc;
     }
-    .wlcm-sec {
-        padding-top: 60px;
+    .sub-menu li a {
+        background: transparent;
+        color: #b4c2cc;
     }
-    .wlcm-sec p, .mb-bx {
-        text-align: center;
+    .sub-menu li a:hover {
+        background: #b4dcde;
+        color: #516472;
     }
-    .appt-sec h3 {
-        padding-left: 0;
-        text-align: center;
-    }
-    .serv-sec {
-        background: #101d23;
-        padding: 55px 0 0;
-    }
-    .half-radius {
-        border-radius: 0;
-    }
+}
+    
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 767px){
     footer ul {
         margin: 0 0 22px;
     }
-    .foot-social {
-        float: left;
-        margin-top: 26px;
+    .content {
+        padding: 60px 0;
     }
-    .foot-menu-inline li {
-        padding: 0 5px;
-    }
-    footer {
-        padding: 85px 0 10px;
-    }
-    .navbar {
-        padding: 0;
-    }
-    figure.effect-sadie:hover h3 {
-        -webkit-transform: translate3d(0,-50%,0) translate3d(0,-50px,0);
-        transform: translate3d(0,-50%,0) translate3d(0,-50px,0);
-    }
+	.mb-bx {
+		margin-bottom:30px;
+		margin-top: 30px;
+	}
+	.img-fluid-mb {
+		max-width: 100%;
+	}
+	.white-float-bx {
+		padding: 40px 0 5px;
+	}
+	.sky-sec h2.section_title {
+		text-align: center !important;
+	}
+	.order-2 {
+		order: 0;
+	}
+	.text-mb-left {
+		text-align:left !important;
+	}
     
 }
 @media only screen and (max-width: 480px){ 
-    .btn-white {
-        font-size: 15px;
-        padding: 17px 27px;
+    .header-mid {
+        padding: 15px 0;
     }
-    .banner p {
-        font-size: 20px;
-        line-height: 22px;
-        padding-right: 42vw;
-        margin-bottom: 15px;
+    .tel-top {
+        padding: 0px 0;
+    }
+    .navbar-collapse {
+        top: 14vh;
+    }
+    .bnr-shadow {
+        padding: 15px 15px;
     }
     .banner h1 {
-        font-size: 26px;
+        font-size: 30px;
         line-height: 30px;
-        padding-right: 43vw;
+        margin: 0 0 15px;
     }
+    .banner .btn_theme {
+        padding: 8px 17px;
+        font-size: 13px;
+    }
+    .section_title {
+        background-position: left bottom;
+        font-size: 28px;
+        margin-bottom: 25px;
+        text-align: left !important;
+    }
+    .wlcm-sec p {
+        text-align: justify;
+    }
+    .cap-txt {
+        text-align: left;
+    }
+    .opening-hrs h2.section_title {
+        text-align: center !important;
+    }
+    .opening-hrs {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .form-left-info {
+        text-align: center;
+    }
+    .foot-top {
+        padding: 72px 0 15px;
+    }
+    .foot-top h2 {
+        margin-bottom: 22px;
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+	.treatments-sec h2.section_title {
+		text-align: center !important;
+	}
+	.wpcf7-form {
+		display: block;
+	}
+
 
 }
 @media only screen and (max-width: 425px){
+	.top-mail {
+        margin-left: 0;
+    }
 }
 @media only screen and (max-width: 375px){
 }

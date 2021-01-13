@@ -116,7 +116,7 @@ header::after {
 nav.navbar-light .navbar-nav .nav-link {
     color: #516472;
     font-size: 14px;
-    padding: 8px 20px;
+    padding: 8px 15px;
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -451,7 +451,7 @@ footer li a:hover {
     padding: 5px 10px 5px 15px;
     line-height: 25px;
     text-decoration: none;
-    text-transform: none;
+    text-transform: uppercase;
     vertical-align: baseline
 }
 .sub-menu li a:hover {
@@ -506,7 +506,7 @@ li.with-caret>a:after {
 .navbar .container {
     position: relative;
 }
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:992px) {
     .sub-menu {
         z-index: 999;
         position: absolute;
@@ -616,6 +616,7 @@ li.with-caret>a:after {
     text-align: center;
     margin-top: 24%;
     display: inline-block;
+    width: 100%;
 }
 .sky-sec h2.section_title {
     background: url(../images/divider-dark.png) no-repeat center bottom;
@@ -712,6 +713,21 @@ li.with-caret>a:after {
     font-size: 24px;
     margin-bottom: 15px;
 }
+.wpcf7-form {
+    display: flex;
+}
+.txt-box h3 {
+    font-size: 20px;
+    color: #101d23;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.txt-box p {
+    font-size: 15px;
+    color: #101d23;
+    line-height: 24px;
+}
+
 
 
 

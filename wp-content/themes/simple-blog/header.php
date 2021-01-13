@@ -32,20 +32,20 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-4">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="<?php echo get_option("siteurl"); ?>">
                     <img src="<?php echo $logo_url?>" alt="logo" class="img-fluid">
                 </a>
             </div>
             <div class="col-lg-9 col-md-9 col-8">
                 <div class="head-top">
                     <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-6 text-center">
+                        <div class="col-lg-6 col-md-6 text-center d-none d-lg-block">
                             <span class="top-addr"><i class="fa fa-map-marker"></i> <?php echo get_option( 'contact_address', '' )?></span>
                         </div>
-                        <div class="col-lg-4 col-md-4 text-center">
+                        <div class="col-lg-4 col-md-12 text-center col-12">
                             <a href="mailto:<?php echo get_option( 'contact_email', '' )?>" class="top-mail"><i class="fa fa-envelope"></i> <?php echo get_option( 'contact_email', '' )?></a>
                         </div>
-                        <div class="col-lg-2 col-md-2 text-right">
+                        <div class="col-lg-2 col-md-2 text-right d-none d-lg-block">
                             <div class="social">
                                 <a href="#" class="fa fa-facebook"></a>
                                 <a href="#" class="fa fa-twitter"></a>
