@@ -90,7 +90,8 @@
         <!-- Modal body -->
         <div class="modal-body">
           <div class="modal-form">
-            <div class="form-group">
+			  <?php echo do_shortcode('[contact-form-7 id="72" title="Contact page"]')?>
+<!--             <div class="form-group">
                 <input type="text" value="" name="" class="form-control" placeholder="Full Name">
             </div>
             <div class="form-group">
@@ -104,7 +105,7 @@
             </div>
             <div class="form-group">
                 <button class="btn btn_theme btn-submit btn-block" type="submit"><span>book now</span></button>
-            </div>
+            </div> -->
                 </div>
         </div>
         

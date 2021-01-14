@@ -194,17 +194,18 @@ require_once get_template_directory().'/inc/mega-menu.php';
 
 
 /*Contact form 7 remove span*/
-add_filter('wpcf7_form_elements', function($content) {
-    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+// add_filter('wpcf7_form_elements', function($content) {
+//     $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
 
-    $content = str_replace('<br />', '', $content);
+//     $content = str_replace('<br />', '', $content);
         
-    return $content;
-});
+//     return $content;
+// });
 
 function link_words( $text ) {
 	$replace = array(
-		'http:'=>'https:'
+		'http:'=>'https:',
+		'<a href="#" class="btn btn_theme mx-auto mt-4">Make an Appointment</a>'=>'<a href="#" class="btn btn_theme mx-auto mt-4" data-toggle="modal" data-target="#myModal">Make an Appointment</a>'
 		);
 	$text = str_replace( array_keys($replace), $replace, $text );
 	return $text;

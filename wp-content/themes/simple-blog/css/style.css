@@ -763,7 +763,9 @@ li.with-caret>a:after {
 .contact-form .wpcf7-form {
     display: block;
 }
-
+.opening-hrs textarea.form-control {
+	height: 103px;
+}
 
 
 
