@@ -1,0 +1,96 @@
+[03-Jan-2021 22:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 22:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 22:52:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:54:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:58:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[03-Jan-2021 23:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 00:03:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 08:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 16:13:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 16:13:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 16:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 17:18:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 17:23:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 17:24:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[04-Jan-2021 17:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15
+[05-Jan-2021 20:01:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-content/themes/simple-blog/index.php on line 15

@@ -1,0 +1,46 @@
+[03-Jan-2021 13:33:08 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-http.php on line 11
+[03-Jan-2021 13:33:08 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-http.php on line 11
+[03-Jan-2021 13:33:08 UTC] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/class-http.php on line 11
+[03-Jan-2021 13:33:08 UTC] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/class-http.php on line 11
+[03-Jan-2021 13:33:08 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/addiscombedental/public_html/wp-includes/class-http.php on line 11
+[03-Jan-2021 13:33:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home/addiscombedental/public_html/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/block-patterns.php on line 9
+[03-Jan-2021 13:33:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-smtp.php on line 6
+[03-Jan-2021 13:33:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-json.php on line 2
+[03-Jan-2021 13:33:12 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/cache.php on line 12
+[03-Jan-2021 13:33:12 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/cache.php on line 12
+[03-Jan-2021 13:33:12 UTC] PHP Warning:  require_once(ABSPATHWPINC/class-wp-object-cache.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/cache.php on line 12
+[03-Jan-2021 13:33:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-wp-object-cache.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/addiscombedental/public_html/wp-includes/cache.php on line 12
+[03-Jan-2021 13:33:14 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-IXR.php on line 42
+[03-Jan-2021 13:33:14 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-IXR.php on line 42
+[03-Jan-2021 13:33:14 UTC] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/class-IXR.php on line 42
+[03-Jan-2021 13:33:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/addiscombedental/public_html/wp-includes/class-IXR.php on line 42
+[03-Jan-2021 13:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-feed.php on line 10
+[03-Jan-2021 13:33:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-snoopy.php on line 6
+[03-Jan-2021 13:33:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/addiscombedental/public_html/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[03-Jan-2021 13:33:43 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-simplepie.php on line 5
+[03-Jan-2021 13:33:43 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/addiscombedental/public_html/wp-includes/class-simplepie.php on line 5
+[03-Jan-2021 13:33:43 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/class-simplepie.php on line 5
+[03-Jan-2021 13:33:43 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home/addiscombedental/public_html/wp-includes/class-simplepie.php on line 5
+[03-Jan-2021 13:33:43 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/addiscombedental/public_html/wp-includes/class-simplepie.php on line 5
+[03-Jan-2021 13:34:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/class-oembed.php on line 12

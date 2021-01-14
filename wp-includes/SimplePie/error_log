@@ -1,0 +1,4 @@
+[03-Jan-2021 13:34:26 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home/addiscombedental/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/SimplePie/Core.php on line 53

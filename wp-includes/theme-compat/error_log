@@ -1,0 +1,36 @@
+[03-Jan-2021 13:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/addiscombedental/public_html/wp-includes/theme-compat/header-embed.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/header-embed.php on line 19
+[03-Jan-2021 13:33:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /home/addiscombedental/public_html/wp-includes/theme-compat/embed-404.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/embed-404.php on line 14
+[03-Jan-2021 13:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/theme-compat/comments.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/comments.php on line 9
+[03-Jan-2021 13:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/theme-compat/sidebar.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/sidebar.php on line 9
+[03-Jan-2021 13:33:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/addiscombedental/public_html/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/embed.php on line 13
+[03-Jan-2021 13:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home/addiscombedental/public_html/wp-includes/theme-compat/footer-embed.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/footer-embed.php on line 18
+[03-Jan-2021 13:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/theme-compat/footer.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/footer.php on line 9
+[03-Jan-2021 13:34:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/addiscombedental/public_html/wp-includes/theme-compat/embed-content.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/embed-content.php on line 13
+[03-Jan-2021 13:34:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/addiscombedental/public_html/wp-includes/theme-compat/header.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/addiscombedental/public_html/wp-includes/theme-compat/header.php on line 9

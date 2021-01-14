@@ -131,7 +131,24 @@
 	.text-mb-left {
 		text-align:left !important;
 	}
+	.sky-back::before {
+		width: 100%;
+	}
+	.sky-back {
+		padding: 30px;
+	}
+	.con-info-bx {
+		margin-bottom: 40px;
+	}
+	
     
+}
+@media only screen and (min-width: 641px){
+
+    .modal-dialog {
+        max-width: 550px;
+    }
+
 }
 @media only screen and (max-width: 480px){ 
     .header-mid {
@@ -191,6 +208,21 @@
 	}
 	.wpcf7-form {
 		display: block;
+	}
+	.info-sec {
+		display: block;
+		text-align: center;
+	}
+	.info-ico {
+		margin-right: 25px;
+		margin: auto auto 15px;
+		display: table;
+	}
+	.info-sec div p {
+		text-align:center;
+	}
+	.con-info-bx {
+		padding: 30px;
 	}
 
 
