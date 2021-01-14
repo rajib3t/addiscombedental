@@ -201,3 +201,13 @@ add_filter('wpcf7_form_elements', function($content) {
         
     return $content;
 });
+
+function link_words( $text ) {
+	$replace = array(
+		'http:'=>'https:'
+		);
+	$text = str_replace( array_keys($replace), $replace, $text );
+	return $text;
+}
+add_filter( 'the_content', 'link_words' );
+add_filter( 'the_excerpt', 'link_words' );
